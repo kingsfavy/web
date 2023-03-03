@@ -1,0 +1,70 @@
+
+
+
+body{
+  text-align:center;
+  background:black;
+  margin:0 5% 0 5%;
+  padding-top:50%;
+}
+.bottom{
+  text-align:center;
+  align-content:center;
+  justify-content:center;
+}
+.btn{
+  text-align: center;
+  border-radius:55px;
+  background:lightgrey;
+  width:auto;
+  height: auto;
+ border:none;
+}
+footer{
+  -webkit-animation: bottom 4s normal 0s 1 both; 
+  margin-top:62%;
+  padding:15px 0 15px 0;
+  height:55px;
+  background:lightgrey;
+  width:100%;
+  bottom:0;
+}
+.name{
+  width:85%;
+  height:25px;
+  padding-left:6%;
+ border:none;
+ -webkit-animation: bottom 2s normal 0s 1 both; 
+}
+
+.email{
+  width:85%;
+  height:25px;
+  padding-left:6%;
+ border:none;
+ -webkit-animation: bottom 2.5s normal 0s 1 both; 
+}
+
+.message{
+  width:85%;
+  height:25px;
+  padding-left:6%;
+ border:none;
+ -webkit-animation: bottom 3s normal 0s 1 both; 
+}
+
+.submit{
+ 
+ text-align: center;
+ -webkit-animation: bottom 3.5s normal 0s 1 both; 
+}
+
+
+   @-webkit-keyframes bottom{
+  from{
+  -ms-webkit-transform:translate(0px, 1000px);
+  -webkit-transform:translate(0px, 1000px);
+  transform:translate(0px, 1000px);
+}
+}
+@media only screen and (orientation:landscape){body{background:black; padding-top:10%;}

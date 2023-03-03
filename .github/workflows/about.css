@@ -1,0 +1,102 @@
+
+.abut{
+  font-size:20px;
+  font-weight:bolder;
+  color:orange;
+  -webkit-animation: slide 2s alternate-reverse ease-in-out 0s 1 forwards;
+}
+body{
+  text-align:center;
+background:black;
+}
+.bottom{
+  text-align:center;
+  align-content:center;
+  justify-content:center;
+ 
+}
+container{
+  width:100%;
+  flex-wrap:wrap;
+}
+.content{
+  -webkit-animation: slide 3s alternate-reverse ease-in 0s 1 forwards;
+  padding:0 15px 0 15px;
+  width:90%;
+  text-align:center;
+}
+.edu{
+  font-size:20px;
+  font-weight:bolder;
+  color:orange;
+}
+footer{
+  padding:15px 0 15px 0;
+  height:55px;
+  background:lightgrey;
+  width:100%;
+  bottom:0;
+}
+img{
+  text-align:center;
+  border-radius:500px;
+  margin:0 20% 0 20%;
+-webkit-animation: slide 3s reverse  1 both;
+}
+.motion{
+  width:100%
+}
+p{
+ font-size:15px;
+  color:white;
+  -webkit-animation: slide 3s reverse  1 both;
+}
+.pic{
+  width:250px;
+  height:250px;
+}
+.pict{
+  width:100%;
+  height:auto;
+  border-radius:0px;
+  margin:0;
+}
+.web{
+  text-align: center;
+  color:white;
+ -webkit-animation: slide 5s reverse ease-in 1 backwards;
+}
+.lightbox {
+         visibility: hidden; 
+         display: table; 
+         position: fixed;
+         top: 0;
+         left: 0;
+         width: 100%;
+         height: 100%;
+         background: rgba(0, 0, 0, 1.0); 
+      }
+      .lightbox:target {
+         visibility: visible;
+      }
+      .lightbox-content {
+        
+         display: table-cell;
+         vertical-align: middle; 
+         text-align: center;
+      }
+     
+@-webkit-keyframes slide{
+  to{
+  -ms-webkit-transform:translate(1000px, 0px);
+  -webkit-transform:translate(1000px, 0px);
+  transform:translate(1000px, 0px);
+}
+}
+@media only screen and (orientation:landscape){body{background:lightgrey;}
+@media only screen and (orientation:landscape){p
+{color:black;
+width:90%;}
+
+      @media only screen and (max-width:480px);
+      @media only screen and (min-width:1200px);
